@@ -1,12 +1,16 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { NuevocomponenteComponent } from './components/nuevocomponente/nuevocomponente.component';
+import { OtronuevocomponenteComponent } from './components/otronuevocomponente/otronuevocomponente.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  standalone: true,
+  imports: [RouterOutlet, NuevocomponenteComponent, OtronuevocomponenteComponent],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'webzoologico_alberto';
+  title = 'Mi Amor';
+  etiqueta = 'Esto es una etiqueta feliz ;)';
 }
