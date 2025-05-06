@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-
 import { AnimalComponent } from './components/animal/animal.component';
 
 @Component({
@@ -11,6 +10,6 @@ import { AnimalComponent } from './components/animal/animal.component';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'Mi Amor';
+  title = 'Holaaaa';
   etiqueta = 'Esto es una etiqueta feliz ;)';
 }
